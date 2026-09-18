@@ -10,11 +10,15 @@
 
 <body>
   <header><!--Lista på alla kontaktfält-->
-    <h1>Rusty Travellers CRM</h1>
+    <img src="images/mainRustyTravellersLogo.jpg" alt="Stiliserad logotyp för Rusty Travellers med tält och granar" />
+    <div>
+      <h1>Rusty Travellers CRM</h1>
+      <p>A cleaner experience</p>
+    </div>
   </header>
 
   <main>
-   <table>
+    <table>
       <tr>
         <th>Namn på företag</th>
         <th>Kontaktperson</th>
@@ -29,7 +33,10 @@
         <th>Orderdatum </th>
         <th>Orderuppföljning </th>
       </tr>
-      <tr>
+
+      <!--Exempel på hur en kontakt ser ut.-->
+
+      <tr class="ej-kontaktad">
         <td>Exempel AB</td>
         <td>Anna Andersson</td>
         <td>a.verylongemail@longeremail.com</td>
@@ -46,12 +53,14 @@
     </table>
 
     <!--Knappar för att hantera kontakter-->
-    <button>Lägg till ny kontakt</button>
-    <button>Uppdatera kontakt</button>
-    <button>Ta bort kontakt</button>  
-    <button>Exportera Kontakter</button>
-    <button>Importera Kontakter</button>
-    
+    <div class="buttonGroup">
+      <button>Lägg till ny kontakt</button>
+      <button>Uppdatera kontakt</button>
+      <button>Ta bort kontakt</button>
+      <button>Exportera Kontakter</button>
+      <button>Importera Kontakter</button>
+    </div>
+
     <!--Formulär för att lägga till eller uppdatera kontakter-->
     <section>
       <h2>Kontakter</h2>
@@ -60,32 +69,32 @@
           <label for="companyName">Namn på företag:</label>
           <input type="text" id="companyName" name="companyName">
         </div>
-       
+
         <div>
           <label for="contactPerson">Kontaktperson:</label>
           <input type="text" id="contactPerson" name="contactPerson">
         </div>
-      
+
         <div>
           <label for="email">Email:</label>
           <input type="email" id="email" name="email">
         </div>
-       
+
         <div>
           <label for="phoneNumber">Telefonnummer:</label>
           <input type="tel" id="phoneNumber" name="phoneNumber">
         </div>
-       
+
         <div>
           <label for="adress">Adress:</label>
           <input type="text" id="adress" name="adress">
         </div>
-       
+
         <div>
           <label for="county">Län:</label>
           <input type="text" id="county" name="county">
         </div>
-       
+
         <div>
           <label for="status">Status:</label>
           <select id="status" name="status">
@@ -98,17 +107,17 @@
             <option value="orderFollowUp">Order uppföljning</option>
           </select>
         </div>
-       
+
         <div>
           <label for="lastContact">Senaste datum för kontakt:</label>
           <input type="date" id="lastContact" name="lastContact">
         </div>
-       
+
         <div>
           <label for="notes">Anteckningar:</label>
           <textarea id="notes" name="notes"></textarea>
         </div>
-       
+
         <div>
           <label for="initiator">Vem tog första kontakten?:</label>
           <select id="initiator" name="initiator">
@@ -127,13 +136,14 @@
             <option value="inPerson">Personligt möte</option>
           </select>
         </div>
-       
+
         <div>
           <label for="orderDate">Order datum:</label>
           <input type="date" id="orderDate" name="orderDate">
         </div>
-        </form>
+      </form>
     </section>
-  </main> 
+  </main>
 </body>
+
 </html>

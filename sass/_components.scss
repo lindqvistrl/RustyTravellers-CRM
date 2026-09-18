@@ -1,0 +1,50 @@
+@use 'variables' as *;
+
+table {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header img {
+    width:150px;
+    height: auto;
+    }
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+//Färger för de olika status
+
+tr.ej-kontaktad { background-color: $status-ej-kontaktad;
+    color:#0A003D  } //Textfärg
+tr.kontaktad { background-color: $status-kontaktad; 
+    color:#0A003D; } //Textfärg
+tr.ej-intresserad { background-color: $status-ej-intresserad;
+    color: #FFFFFF } //Textfärg
+tr.intresserad { background-color: $status-intresserad;
+    color:#FAF3E9 } //Textfärg
+tr.infor-order { background-color: $status-infor-order;
+    color:#0A003D } //Textfärg
+tr.order { background-color: $status-order;
+    color:#0A003D } //Textfärg
+tr.order-uppfoljning { background-color: $status-order-uppfoljning;
+    color:#02003D } //Textfärg
+
+.buttonGroup {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem 0;
+}
