@@ -20,7 +20,7 @@ Projektet är under utveckling. Jag bygger det vid sidan av studierna för att �
 
 ## Byggs med
 
-HTML, CSS och JavaScript utan ramverk. Data sparas lokalt i webbläsaren med localStorage.
+HTML, CSS och JavaScript utan ramverk. Data ska sparas lokalt i webbläsaren med localStorage.
 
 # To DO
 
