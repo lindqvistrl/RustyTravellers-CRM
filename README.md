@@ -22,18 +22,3 @@ Projektet är under utveckling. Jag bygger det vid sidan av studierna för att �
 
 HTML, CSS och JavaScript utan ramverk. Data ska sparas lokalt i webbläsaren med localStorage.
 
-# To DO
-
--1 CSS — styling på knappar, tabell-headers, formulär
-   
--2 JavaScript — lägga till kontakt, expanderande rad med read-only info, redigera-knapp, ta bort med bekräftelse. 
-   
--3 Exportera till CSV.
-   
--4 Importera csv-fil.
-
--5 Skapa mailmallar. 
-    
--6 Skicka mail direkt ifrån systemet.
-    
--7 Hämta företagsinfo, slå upp organisationsnummer via bolagsverkets api och fylla i namn och adress automatiskt.
